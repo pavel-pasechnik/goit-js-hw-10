@@ -22,13 +22,13 @@ const options = {
     // console.log(selectedDates[0]);
     if (selectedDates[0] <= new Date()) {
       // window.alert('Please choose a date in the future');
-      iziToast.show({
+      iziToast.error({
         title: '',
         message: 'Please choose a date in the future',
         messageColor: '#FFFFFF',
         backgroundColor: '#EF4040',
         color: '#B51B1B',
-        iconUrl: './bi_x-octagon.svg',
+        // iconUrl: './bi_x-octagon.svg',
         iconColor: '#FAFAFB',
         position: 'topRight',
       });
