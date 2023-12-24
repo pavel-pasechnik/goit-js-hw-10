@@ -1,0 +1,121 @@
+.timer-section {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: baseline;
+  padding-top: 36px;
+  padding-left: 156px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.timer-section:after {
+  content: '';
+  width: 100%;
+  order: 0;
+}
+
+#datetime-picker {
+  width: 272px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  outline: transparent;
+  padding: 8px 16px;
+}
+
+#datetime-picker:hover {
+  border: 1px solid #000000;
+  outline: transparent;
+}
+
+#datetime-picker:active {
+  color: #000000;
+  border: 1px solid #4e75ff;
+  outline: transparent;
+}
+
+#datetime-picker:disabled,
+#datetime-picker[disabled] {
+  color: #808080;
+  background: #fafafa;
+  outline: transparent;
+}
+
+.timer-section button {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  min-width: 75px;
+  height: 40px;
+  gap: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.timer-section button:disabled,
+.timer-section button[disabled] {
+  background: #cfcfcf;
+  color: #9898;
+}
+
+.timer-section button:disabled:hover,
+.timer-section button[disabled]:hover {
+  background: #cfcfcf;
+  color: #9898;
+}
+
+.timer-section button:hover {
+  color: #ffffff;
+  background: #6c8cff;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  order: 1;
+  margin-top: 32px;
+  column-gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 1.6px;
+}
+
+.label {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+}
