@@ -28,7 +28,7 @@ const options = {
         messageColor: '#FFFFFF',
         backgroundColor: '#EF4040',
         color: '#B51B1B',
-        iconUrl: './img/bi_x-octagon.svg',
+        iconUrl: '/bi_x-octagon.svg',
         iconColor: '#FAFAFB',
         position: 'topRight',
       });
